@@ -1,0 +1,23 @@
+.checkout-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+
+    font-weight: bolder;
+    font-size: xx-large;
+    color: rgb(95, 94, 94);
+}
+
+.checkout-container > p {
+    margin-left: 20px;
+}
+
+.goto-home {
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: rgb(44, 194, 44);
+}
+
+.goto-home:hover {
+    background-color: rgb(13, 146, 13);
+}

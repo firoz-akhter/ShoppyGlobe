@@ -1,0 +1,49 @@
+.search-input {
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid lightgray;
+    padding: 0 10px;
+    color: rgb(100, 100, 100);
+    font-size: large;
+    background-color: #fdfdfd;
+    margin: 20px 10px;
+}
+
+.products-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+
+
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.buttons>button {
+    background-color: #067af7;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin: 20px 10px;
+}
+
+
+.buttons>button:hover {
+    background-color: #0454aa;
+}
+
+.buttons>button:focus {
+    outline: 2px solid #0351a3;
+}

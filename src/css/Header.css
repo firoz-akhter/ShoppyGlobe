@@ -1,0 +1,57 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;  
+    padding: 20px;  
+    background-color: #f8f9fa;  
+
+    position: sticky;  
+    top: 0;  
+    z-index: 1000;  
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+    width: 100%;
+
+    color: rgb(95, 94, 94);
+}
+
+.navbar > div {
+    display: flex;
+    background-color: #f8f9fa;  
+}
+
+.navbar p {
+    margin: 0 15px;  
+}
+
+.navbar > div > p, .navbar > div > p > Link {
+    background-color: #f8f9fa;  
+}
+.navbar > div > p {
+    display: flex;
+    align-items: center;
+}
+
+.navbar a {
+    text-decoration: none;  
+    color: #333;  
+    font-size: 1em;  
+}
+
+.navbar a:hover {
+    color: #007bff;  
+}
+
+
+.navbar > h2 {
+    background-color: #f8f9fa;
+}
+
+.navbar a svg {
+    margin-right: 5px;
+    font-size: 1.2rem;
+
+}
+
+
+
+

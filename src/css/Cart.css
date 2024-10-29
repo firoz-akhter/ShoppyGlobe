@@ -1,0 +1,33 @@
+/* .cart-container {
+    text-align: center;
+} */
+
+.cart-item-container {
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+
+.total-price-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.total-price-container > div {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.empty-cart {
+    text-align: center;
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: xx-large;
+    color: rgb(110, 109, 109);
+}
